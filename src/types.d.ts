@@ -1,6 +1,8 @@
 export type TemplateProps = {
-  title: string;
+  title?: string;
   duration: string;
-  background: string;
+  background?: string;
   date?: string;
+  hours?: string;
+  text?: string;
 };
