@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { PostIt } from "../templates/post-it/post-it";
+import { PostItYellow } from "../templates/post-it/post-it-yellow";
+import { PostItRose } from "../templates/post-it/post-it-rose";
 
-const meta: Meta<typeof PostIt> = {
+const meta: Meta<typeof PostItYellow> = {
   title: "Templates/PostIt",
-  component: PostIt,
   parameters: {
     layout: "centered",
   },
@@ -22,6 +22,12 @@ const meta: Meta<typeof PostIt> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof PostIt>;
+type Story = StoryObj<typeof PostItYellow>;
 
-export const Default: Story = {};
+export const Yellow: Story = {
+  render: (args) => <PostItYellow {...args} />,
+};
+
+export const Rose: Story = {
+  render: (args) => <PostItRose {...args} />,
+};

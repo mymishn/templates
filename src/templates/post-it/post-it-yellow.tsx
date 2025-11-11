@@ -1,7 +1,7 @@
 import React from "react";
 import type { TemplateProps } from "@/types";
 
-export const PostIt: React.FC<TemplateProps> = ({ text, duration, date }) => {
+export const PostItYellow: React.FC<TemplateProps> = ({ text, duration, date }) => {
   return (
     <div className="relative w-full h-full overflow-hidden bg-[#FEE277]">
       <div className="flex flex-col justify-between h-full p-6 text-black font-gloria">
