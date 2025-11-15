@@ -5,4 +5,8 @@ export type TemplateProps = {
   date?: string;
   hours?: string;
   text?: string;
+  tasks?: string[];
+  days?: string[];
+  dayDurations?: string[];
+  times?: string[];
 };
