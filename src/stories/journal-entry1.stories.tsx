@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { NightWork } from "../templates/night-work/night-work";
+import { JournalEntry1 } from "../templates/journal-entry1/journal-entry1";
 
-const meta: Meta<typeof NightWork> = {
-  title: "Templates/NightWork",
-  component: NightWork,
+const meta: Meta<typeof JournalEntry1> = {
+  title: "Templates/JournalEntry1",
+  component: JournalEntry1,
   parameters: {
     layout: "centered",
   },
@@ -15,13 +15,13 @@ const meta: Meta<typeof NightWork> = {
     ),
   ],
   args: {
-    title: "Example title",
+    text: "this sess was legit. came up with new template. moving pretty fast tho.",
     duration: "2h13m",
     date: "01.11.2025",
   },
 };
 
 export default meta;
-type Story = StoryObj<typeof NightWork>;
+type Story = StoryObj<typeof JournalEntry1>;
 
 export const Default: Story = {};
