@@ -1,5 +1,16 @@
 import React from "react";
-import type { TemplateProps } from "../types";
+type TemplateProps = {
+  title?: string;
+  duration: string;
+  background?: string;
+  date?: string;
+  hours?: string;
+  text?: string;
+  tasks?: string[];
+  days?: string[];
+  dayDurations?: string[];
+  times?: string[];
+};
 import background from "./journal-entry3-back.svg";
 
 export const JournalEntry3: React.FC<TemplateProps> = ({ text, duration, date }) => {

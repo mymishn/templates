@@ -22,10 +22,6 @@
         {
           "path": "registry/templates/git-commit/git-commit.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -39,10 +35,6 @@
         {
           "path": "registry/templates/git-commit/git-commit-blue.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -56,10 +48,6 @@
         {
           "path": "registry/templates/git-commit/git-commit-purple.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -73,10 +61,6 @@
         {
           "path": "registry/templates/git-commit/git-commit-amber-black.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -90,10 +74,6 @@
         {
           "path": "registry/templates/git-commit/git-commit-amber-white.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -107,10 +87,6 @@
         {
           "path": "registry/templates/git-commit/git-commit-blue-black.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -124,10 +100,6 @@
         {
           "path": "registry/templates/git-commit/git-commit-blue-white.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -141,10 +113,6 @@
         {
           "path": "registry/templates/git-commit/git-commit-purple-black.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -158,10 +126,6 @@
         {
           "path": "registry/templates/git-commit/git-commit-purple-white.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -178,10 +142,6 @@
         },
         {
           "path": "registry/templates/journal-entry1/journal-entry1-back.svg",
-          "type": "registry:lib"
-        },
-        {
-          "path": "registry/templates/types.ts",
           "type": "registry:lib"
         }
       ],
@@ -200,10 +160,6 @@
         {
           "path": "registry/templates/journal-entry2/journal-entry2-back.svg",
           "type": "registry:lib"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -220,10 +176,6 @@
         },
         {
           "path": "registry/templates/journal-entry3/journal-entry3-back.svg",
-          "type": "registry:lib"
-        },
-        {
-          "path": "registry/templates/types.ts",
           "type": "registry:lib"
         }
       ],
@@ -242,10 +194,6 @@
         {
           "path": "registry/templates/journal-entry4/journal-entry4-back.svg",
           "type": "registry:lib"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -259,10 +207,6 @@
         {
           "path": "registry/templates/post-it/post-it-rose.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -276,10 +220,6 @@
         {
           "path": "registry/templates/post-it/post-it-yellow.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -293,10 +233,6 @@
         {
           "path": "registry/templates/small-card/small-card-transparent-bruno.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -310,10 +246,6 @@
         {
           "path": "registry/templates/small-card/small-card-transparent-orbitron.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -327,10 +259,6 @@
         {
           "path": "registry/templates/small-card/small-card-white-bruno.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -344,10 +272,6 @@
         {
           "path": "registry/templates/small-card/small-card-white-orbitron.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -361,10 +285,6 @@
         {
           "path": "registry/templates/timeline/timeline-black-bruno.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -378,10 +298,6 @@
         {
           "path": "registry/templates/timeline/timeline-black-orbitron.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -395,10 +311,6 @@
         {
           "path": "registry/templates/timeline/timeline-white-bruno.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -412,10 +324,6 @@
         {
           "path": "registry/templates/timeline/timeline-white-orbitron.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -429,10 +337,6 @@
         {
           "path": "registry/templates/title-notes/title-notes-black.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -446,10 +350,6 @@
         {
           "path": "registry/templates/title-notes/title-notes-white.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -463,10 +363,6 @@
         {
           "path": "registry/templates/weekly-report/weekly-report-black-bruno.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -480,10 +376,6 @@
         {
           "path": "registry/templates/weekly-report/weekly-report-black-orbitron.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -497,10 +389,6 @@
         {
           "path": "registry/templates/weekly-report/weekly-report-bruno.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
@@ -514,10 +402,6 @@
         {
           "path": "registry/templates/weekly-report/weekly-report-orbitron.tsx",
           "type": "registry:component"
-        },
-        {
-          "path": "registry/templates/types.ts",
-          "type": "registry:lib"
         }
       ],
       "registryDependencies": []
