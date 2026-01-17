@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { PostItYellow } from "../templates/post-it/post-it-yellow";
-import { PostItRose } from "../templates/post-it/post-it-rose";
+import { PostItYellow } from "../../registry/templates/post-it/post-it-yellow";
+import { PostItRose } from "../../registry/templates/post-it/post-it-rose";
 
 const meta: Meta<typeof PostItYellow> = {
   title: "Templates/PostIt",

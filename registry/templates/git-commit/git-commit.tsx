@@ -1,0 +1,29 @@
+import React from "react";
+import type { TemplateProps } from "../types";
+
+export const GitCommit: React.FC<TemplateProps> = ({ tasks = [] }) => {
+  // after 20 characters, the text is cut off with ...
+  const truncateText = (text: string, maxLength: number = 20) => {
+    if (text.length <= maxLength) return text;
+    return text.slice(0, maxLength) + "...";
+  };
+
+  return (
+    <div className="relative inline-block overflow-visible rounded-3xl p-10 font-noto text-white">
+      <div className="relative flex flex-col items-start">
+        <span className="absolute left-[0.53125rem] top-0 bottom-0 w-[0.1875rem] bg-[#F4B03D]" />
+        {tasks.map((todo, index) => (
+          <div
+            key={`${todo}-${index}`}
+            className={`relative flex items-center ${index === 0 ? "pt-6" : ""} ${index !== tasks.length - 1 ? "pb-6" : "pb-6"}`}
+          >
+            <div className="relative flex-shrink-0 mr-6 flex items-center justify-center z-10">
+              <span className="w-5 h-5 rounded-full bg-[#F4B03D]" />
+            </div>
+            <p className="text-2xl leading-tight whitespace-nowrap">{truncateText(todo)}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};

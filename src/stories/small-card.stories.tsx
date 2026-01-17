@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { SmallCardWhiteBruno } from "../templates/small-card/small-card-white-bruno";
-import { SmallCardWhiteOrbitron } from "../templates/small-card/small-card-white-orbitron";
-import { SmallCardTransparentBruno } from "../templates/small-card/small-card-transparent-bruno";
-import { SmallCardTransparentOrbitron } from "../templates/small-card/small-card-transparent-orbitron";
+import { SmallCardWhiteBruno } from "../../registry/templates/small-card/small-card-white-bruno";
+import { SmallCardWhiteOrbitron } from "../../registry/templates/small-card/small-card-white-orbitron";
+import { SmallCardTransparentBruno } from "../../registry/templates/small-card/small-card-transparent-bruno";
+import { SmallCardTransparentOrbitron } from "../../registry/templates/small-card/small-card-transparent-orbitron";
 
 const meta: Meta<typeof SmallCardWhiteBruno> = {
   title: "Templates/SmallCard",

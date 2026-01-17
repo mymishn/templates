@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { TimelineWhiteOrbitron } from "../templates/timeline/timeline-white-orbitron";
-import { TimelineWhiteBruno } from "../templates/timeline/timeline-white-bruno";
-import { TimelineBlackOrbitron } from "../templates/timeline/timeline-black-orbitron";
-import { TimelineBlackBruno } from "../templates/timeline/timeline-black-bruno";
+import { TimelineWhiteOrbitron } from "../../registry/templates/timeline/timeline-white-orbitron";
+import { TimelineWhiteBruno } from "../../registry/templates/timeline/timeline-white-bruno";
+import { TimelineBlackOrbitron } from "../../registry/templates/timeline/timeline-black-orbitron";
+import { TimelineBlackBruno } from "../../registry/templates/timeline/timeline-black-bruno";
 
 const meta: Meta<typeof TimelineWhiteOrbitron> = {
   title: "Templates/Timeline",

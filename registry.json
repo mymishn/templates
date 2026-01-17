@@ -1,0 +1,526 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "templates",
+  "homepage": "https://github.com/dmytrobez/templates",
+  "style": "default",
+  "tailwind": {
+    "config": "tailwind.config.cjs"
+  },
+  "rsc": false,
+  "tsx": true,
+  "aliases": {
+    "components": "registry/templates",
+    "utils": "registry/templates/utils"
+  },
+  "items": [
+    {
+      "name": "git-commit",
+      "type": "registry:component",
+      "title": "Git Commit",
+      "description": "Git commit template displaying tasks in a commit history style",
+      "files": [
+        {
+          "path": "registry/templates/git-commit/git-commit.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "git-commit-blue",
+      "type": "registry:component",
+      "title": "Git Commit Blue",
+      "description": "Git Commit Blue template component",
+      "files": [
+        {
+          "path": "registry/templates/git-commit/git-commit-blue.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "git-commit-purple",
+      "type": "registry:component",
+      "title": "Git Commit Purple",
+      "description": "Git Commit Purple template component",
+      "files": [
+        {
+          "path": "registry/templates/git-commit/git-commit-purple.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "git-commit-amber-black",
+      "type": "registry:component",
+      "title": "Git Commit Amber Black",
+      "description": "Git Commit Amber Black template component",
+      "files": [
+        {
+          "path": "registry/templates/git-commit/git-commit-amber-black.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "git-commit-amber-white",
+      "type": "registry:component",
+      "title": "Git Commit Amber White",
+      "description": "Git Commit Amber White template component",
+      "files": [
+        {
+          "path": "registry/templates/git-commit/git-commit-amber-white.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "git-commit-blue-black",
+      "type": "registry:component",
+      "title": "Git Commit Blue Black",
+      "description": "Git Commit Blue Black template component",
+      "files": [
+        {
+          "path": "registry/templates/git-commit/git-commit-blue-black.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "git-commit-blue-white",
+      "type": "registry:component",
+      "title": "Git Commit Blue White",
+      "description": "Git Commit Blue White template component",
+      "files": [
+        {
+          "path": "registry/templates/git-commit/git-commit-blue-white.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "git-commit-purple-black",
+      "type": "registry:component",
+      "title": "Git Commit Purple Black",
+      "description": "Git Commit Purple Black template component",
+      "files": [
+        {
+          "path": "registry/templates/git-commit/git-commit-purple-black.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "git-commit-purple-white",
+      "type": "registry:component",
+      "title": "Git Commit Purple White",
+      "description": "Git Commit Purple White template component",
+      "files": [
+        {
+          "path": "registry/templates/git-commit/git-commit-purple-white.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "journal-entry1",
+      "type": "registry:component",
+      "title": "Journal Entry1",
+      "description": "Journal Entry1 template component",
+      "files": [
+        {
+          "path": "registry/templates/journal-entry1/journal-entry1.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/journal-entry1/journal-entry1-back.svg",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "journal-entry2",
+      "type": "registry:component",
+      "title": "Journal Entry2",
+      "description": "Journal Entry2 template component",
+      "files": [
+        {
+          "path": "registry/templates/journal-entry2/journal-entry2.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/journal-entry2/journal-entry2-back.svg",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "journal-entry3",
+      "type": "registry:component",
+      "title": "Journal Entry3",
+      "description": "Journal Entry3 template component",
+      "files": [
+        {
+          "path": "registry/templates/journal-entry3/journal-entry3.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/journal-entry3/journal-entry3-back.svg",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "journal-entry4",
+      "type": "registry:component",
+      "title": "Journal Entry4",
+      "description": "Journal Entry4 template component",
+      "files": [
+        {
+          "path": "registry/templates/journal-entry4/journal-entry4.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/journal-entry4/journal-entry4-back.svg",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "post-it-rose",
+      "type": "registry:component",
+      "title": "Post It Rose",
+      "description": "Post It Rose template component",
+      "files": [
+        {
+          "path": "registry/templates/post-it/post-it-rose.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "post-it-yellow",
+      "type": "registry:component",
+      "title": "Post It Yellow",
+      "description": "Post It Yellow template component",
+      "files": [
+        {
+          "path": "registry/templates/post-it/post-it-yellow.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "small-card-transparent-bruno",
+      "type": "registry:component",
+      "title": "Small Card Transparent Bruno",
+      "description": "Small Card Transparent Bruno template component",
+      "files": [
+        {
+          "path": "registry/templates/small-card/small-card-transparent-bruno.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "small-card-transparent-orbitron",
+      "type": "registry:component",
+      "title": "Small Card Transparent Orbitron",
+      "description": "Small Card Transparent Orbitron template component",
+      "files": [
+        {
+          "path": "registry/templates/small-card/small-card-transparent-orbitron.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "small-card-white-bruno",
+      "type": "registry:component",
+      "title": "Small Card White Bruno",
+      "description": "Small Card White Bruno template component",
+      "files": [
+        {
+          "path": "registry/templates/small-card/small-card-white-bruno.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "small-card-white-orbitron",
+      "type": "registry:component",
+      "title": "Small Card White Orbitron",
+      "description": "Small Card White Orbitron template component",
+      "files": [
+        {
+          "path": "registry/templates/small-card/small-card-white-orbitron.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "timeline-black-bruno",
+      "type": "registry:component",
+      "title": "Timeline Black Bruno",
+      "description": "Timeline Black Bruno template component",
+      "files": [
+        {
+          "path": "registry/templates/timeline/timeline-black-bruno.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "timeline-black-orbitron",
+      "type": "registry:component",
+      "title": "Timeline Black Orbitron",
+      "description": "Timeline Black Orbitron template component",
+      "files": [
+        {
+          "path": "registry/templates/timeline/timeline-black-orbitron.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "timeline-white-bruno",
+      "type": "registry:component",
+      "title": "Timeline White Bruno",
+      "description": "Timeline White Bruno template component",
+      "files": [
+        {
+          "path": "registry/templates/timeline/timeline-white-bruno.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "timeline-white-orbitron",
+      "type": "registry:component",
+      "title": "Timeline White Orbitron",
+      "description": "Timeline White Orbitron template component",
+      "files": [
+        {
+          "path": "registry/templates/timeline/timeline-white-orbitron.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "title-notes-black",
+      "type": "registry:component",
+      "title": "Title Notes Black",
+      "description": "Title Notes Black template component",
+      "files": [
+        {
+          "path": "registry/templates/title-notes/title-notes-black.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "title-notes-white",
+      "type": "registry:component",
+      "title": "Title Notes White",
+      "description": "Title Notes White template component",
+      "files": [
+        {
+          "path": "registry/templates/title-notes/title-notes-white.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "weekly-report-black-bruno",
+      "type": "registry:component",
+      "title": "Weekly Report Black Bruno",
+      "description": "Weekly Report Black Bruno template component",
+      "files": [
+        {
+          "path": "registry/templates/weekly-report/weekly-report-black-bruno.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "weekly-report-black-orbitron",
+      "type": "registry:component",
+      "title": "Weekly Report Black Orbitron",
+      "description": "Weekly Report Black Orbitron template component",
+      "files": [
+        {
+          "path": "registry/templates/weekly-report/weekly-report-black-orbitron.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "weekly-report-bruno",
+      "type": "registry:component",
+      "title": "Weekly Report Bruno",
+      "description": "Weekly Report Bruno template component",
+      "files": [
+        {
+          "path": "registry/templates/weekly-report/weekly-report-bruno.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    },
+    {
+      "name": "weekly-report-orbitron",
+      "type": "registry:component",
+      "title": "Weekly Report Orbitron",
+      "description": "Weekly Report Orbitron template component",
+      "files": [
+        {
+          "path": "registry/templates/weekly-report/weekly-report-orbitron.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/templates/types.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": []
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { WeeklyReportOrbitron } from "../templates/weekly-report/weekly-report-orbitron";
-import { WeeklyReportBruno } from "../templates/weekly-report/weekly-report-bruno";
-import { WeeklyReportBlackOrbitron } from "../templates/weekly-report/weekly-report-black-orbitron";
-import { WeeklyReportBlackBruno } from "../templates/weekly-report/weekly-report-black-bruno";
+import { WeeklyReportOrbitron } from "../../registry/templates/weekly-report/weekly-report-orbitron";
+import { WeeklyReportBruno } from "../../registry/templates/weekly-report/weekly-report-bruno";
+import { WeeklyReportBlackOrbitron } from "../../registry/templates/weekly-report/weekly-report-black-orbitron";
+import { WeeklyReportBlackBruno } from "../../registry/templates/weekly-report/weekly-report-black-bruno";
 
 const meta: Meta<typeof WeeklyReportOrbitron> = {
   title: "Templates/WeeklyReport",

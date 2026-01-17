@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "post-it-rose",
+  "title": "Post It Rose",
+  "description": "Post It Rose template component",
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/templates/post-it/post-it-rose.tsx",
+      "content": "import React from \"react\";\nimport type { TemplateProps } from \"../types\";\n\nexport const PostItRose: React.FC<TemplateProps> = ({ text, duration, date }) => {\n  return (\n    <div className=\"relative w-full h-full overflow-hidden bg-[#F894AE]\">\n      <div className=\"flex flex-col justify-between h-full p-6 text-black font-gloria\">\n        <div className=\"flex flex-col gap-4\">\n          {date && (\n            <p className=\"text-2xl font-medium\">{date}</p>\n          )}\n          <p className=\"text-2xl font-medium\">{text}</p>\n        </div>\n        <div className=\"flex justify-end\">\n          <p className=\"text-2xl font-medium\">{duration}</p>\n        </div>\n      </div>\n    </div>\n  );\n};\n",
+      "type": "registry:component"
+    }
+  ],
+  "type": "registry:component"
+}

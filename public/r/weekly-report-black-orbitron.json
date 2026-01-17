@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "weekly-report-black-orbitron",
+  "title": "Weekly Report Black Orbitron",
+  "description": "Weekly Report Black Orbitron template component",
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/templates/weekly-report/weekly-report-black-orbitron.tsx",
+      "content": "import React from \"react\";\nimport type { TemplateProps } from \"../types\";\n\nexport const WeeklyReportBlackOrbitron: React.FC<TemplateProps> = ({ duration, days = [], dayDurations = [] }) => {\n  return (\n    <div className=\"relative w-full h-full overflow-hidden\">\n      <div className=\"flex flex-col items-center justify-center h-full p-6 font-orbitron text-black gap-10\">\n        <div className=\"flex justify-between items-center w-full\">\n          <p className=\"text-4xl font-semibold\">this week</p>\n          <p className=\"text-4xl font-semibold\">{duration}</p>\n        </div>\n        <div className=\"grid grid-cols-4 gap-6 w-full mt-14\">\n          {days.slice(0, 4).map((day, index) => (\n            <div key={day} className=\"flex flex-col items-center gap-1 p-6\">\n              <p className=\"text-base font-semibold\">{day}</p>\n              <p className=\"text-4xl font-semibold\">{dayDurations[index] || \"0h\"}</p>\n            </div>\n          ))}\n        </div>\n        <div className=\"grid grid-cols-3 gap-6 mx-auto\">\n          {days.slice(4, 7).map((day, index) => (\n            <div key={day} className=\"flex flex-col items-center gap-1 p-6\">\n              <p className=\"text-base font-semibold\">{day}</p>\n              <p className=\"text-4xl font-semibold\">{dayDurations[index + 4] || \"0h\"}</p>\n            </div>\n          ))}\n        </div>\n      </div>\n    </div>\n  );\n};\n",
+      "type": "registry:component"
+    }
+  ],
+  "type": "registry:component"
+}

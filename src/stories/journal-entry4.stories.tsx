@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { JournalEntry4 } from "../templates/journal-entry4/journal-entry4";
+import { JournalEntry4 } from "../../registry/templates/journal-entry4/journal-entry4";
 
 const meta: Meta<typeof JournalEntry4> = {
   title: "Templates/JournalEntry4",

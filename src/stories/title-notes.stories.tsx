@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { TitleNotesBlack } from "../templates/title-notes/title-notes-black";
-import { TitleNotesWhite } from "../templates/title-notes/title-notes-white";
+import { TitleNotesBlack } from "../../registry/templates/title-notes/title-notes-black";
+import { TitleNotesWhite } from "../../registry/templates/title-notes/title-notes-white";
 
 const meta: Meta<typeof TitleNotesBlack> = {
   title: "Templates/TitleNotes",

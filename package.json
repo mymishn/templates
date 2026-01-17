@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
+    "registry:build": "shadcn build",
     "new": "bash create-component.sh"
   },
   "dependencies": {
@@ -14,6 +15,7 @@
     "postcss": "^8.5.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "shadcn": "^3.7.0",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.16"
   },

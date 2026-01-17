@@ -1,14 +1,14 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import React from "react";
-import { GitCommit } from "../templates/git-commit/git-commit";
-import { GitCommitBlue } from "../templates/git-commit/git-commit-blue";
-import { GitCommitPurple } from "../templates/git-commit/git-commit-purple";
-import { GitCommitAmberBlack } from "../templates/git-commit/git-commit-amber-black";
-import { GitCommitAmberWhite } from "../templates/git-commit/git-commit-amber-white";
-import { GitCommitBlueBlack } from "../templates/git-commit/git-commit-blue-black";
-import { GitCommitBlueWhite } from "../templates/git-commit/git-commit-blue-white";
-import { GitCommitPurpleBlack } from "../templates/git-commit/git-commit-purple-black";
-import { GitCommitPurpleWhite } from "../templates/git-commit/git-commit-purple-white";
+import { GitCommit } from "../../registry/templates/git-commit/git-commit";
+import { GitCommitBlue } from "../../registry/templates/git-commit/git-commit-blue";
+import { GitCommitPurple } from "../../registry/templates/git-commit/git-commit-purple";
+import { GitCommitAmberBlack } from "../../registry/templates/git-commit/git-commit-amber-black";
+import { GitCommitAmberWhite } from "../../registry/templates/git-commit/git-commit-amber-white";
+import { GitCommitBlueBlack } from "../../registry/templates/git-commit/git-commit-blue-black";
+import { GitCommitBlueWhite } from "../../registry/templates/git-commit/git-commit-blue-white";
+import { GitCommitPurpleBlack } from "../../registry/templates/git-commit/git-commit-purple-black";
+import { GitCommitPurpleWhite } from "../../registry/templates/git-commit/git-commit-purple-white";
 
 const sharedArgs = {
   tasks: [
